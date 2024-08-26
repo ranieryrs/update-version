@@ -39,7 +39,8 @@ jobs:
           npm version patch
           git push
           TESTE_URL="https://github.com/ranieryrs/update-version"
-          echo  $TESTE_URL
+          echo Deploy line 
+          echo  $TESTE_URL  $TESTE_URL  $TESTE_URL	 	
           echo ${{ vars.TESTE_URL }}
           echo test, and deploy your project.
        
