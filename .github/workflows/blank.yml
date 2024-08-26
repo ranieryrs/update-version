@@ -35,5 +35,5 @@ jobs:
           git config --global user.name "Raninery Rodrigues da Silva"
           npm version patch
           git push
-          echo "$TESTE_URL"
+          echo '${{ env.TESTE_URL }}'
           echo test, and deploy your project.
