@@ -32,5 +32,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          git config --global user.email "ranieryrs@gmail.com"
+          git config --global user.name "Raninery Rodrigues da Silva"
+          run: npm version 1.0.2
           echo Add other actions to build,
           echo test, and deploy your project.
