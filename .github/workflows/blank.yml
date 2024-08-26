@@ -40,7 +40,7 @@ jobs:
           git push
           TESTE_URL="https://github.com/ranieryrs/update-version"
           echo Deploy line 
-          echo  -e "$TESTE_URL\t$TESTE_URL\t$TESTE_URL"	 	
+          echo  -e "$TESTE_URL\t$TESTE_URL\t${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"	 	
           echo ${{ vars.TESTE_URL }}
           echo test, and deploy your project.
        
