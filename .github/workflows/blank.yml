@@ -32,5 +32,6 @@ jobs:
           git config --global user.email "ranieryrs@gmail.com"
           git config --global user.name "Raninery Rodrigues da Silva"
           npm version patch
+          git push
           echo Add other actions to build,
           echo test, and deploy your project.
