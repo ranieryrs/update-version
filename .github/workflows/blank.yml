@@ -42,5 +42,6 @@ jobs:
           git push
           echo " $TESTE_URL"
           echo ${{ env.TESTE_URL }}
+          echo ${{ vars.TESTE_URL }}
           echo test, and deploy your project.
        
